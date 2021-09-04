@@ -1,0 +1,12 @@
+c:\users\salman\documents\visual studio 2013\Projects\WebApplication21\WebApplication21\bin\WebApplication21.dll.config
+c:\users\salman\documents\visual studio 2013\Projects\WebApplication21\WebApplication21\bin\WebApplication21.dll
+c:\users\salman\documents\visual studio 2013\Projects\WebApplication21\WebApplication21\bin\WebApplication21.pdb
+c:\users\salman\documents\visual studio 2013\Projects\WebApplication21\WebApplication21\obj\Debug\WebApplication21.csprojResolveAssemblyReference.cache
+c:\users\salman\documents\visual studio 2013\Projects\WebApplication21\WebApplication21\obj\Debug\WebApplication21.dll
+c:\users\salman\documents\visual studio 2013\Projects\WebApplication21\WebApplication21\obj\Debug\WebApplication21.pdb
+C:\Users\salman\Desktop\ecommerce\WebApplication21\WebApplication21\bin\WebApplication21.dll.config
+C:\Users\salman\Desktop\ecommerce\WebApplication21\WebApplication21\bin\WebApplication21.dll
+C:\Users\salman\Desktop\ecommerce\WebApplication21\WebApplication21\bin\WebApplication21.pdb
+C:\Users\salman\Desktop\ecommerce\WebApplication21\WebApplication21\obj\Debug\WebApplication21.csprojResolveAssemblyReference.cache
+C:\Users\salman\Desktop\ecommerce\WebApplication21\WebApplication21\obj\Debug\WebApplication21.dll
+C:\Users\salman\Desktop\ecommerce\WebApplication21\WebApplication21\obj\Debug\WebApplication21.pdb

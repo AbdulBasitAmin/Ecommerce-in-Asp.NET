@@ -1,0 +1,79 @@
+create table tbl_admin
+(
+ad_id int identity primary key,
+ad_email nvarchar(50) not null unique,
+ad_password nvarchar(50) not null , 
+ad_phone nvarchar(50) not null unique
+)
+
+
+create table tbl_product_category
+(
+cat_id int identity primary key,
+cat_name nvarchar(50) not null unique,
+)
+
+create table tbl_product_items
+(
+pro_id int identity primary key,
+pro_name nvarchar(50) not null,
+pro_posted_date date,
+pro_price float,
+pro_status int default 0,
+pro_image nvarchar(max),
+pro_fk_ad int foreign key references  tbl_admin(ad_id),
+pro_fk_cat int foreign key references  tbl_product_category(cat_id)
+
+)
+
+insert into tbl_product_category
+values('Mobile')
+insert into tbl_product_category
+values('Home Appliance')
+insert into tbl_product_category
+values('vehicles')
+insert into tbl_product_category
+values('Kids')
+insert into tbl_product_category
+values('Services')
+insert into tbl_product_category
+values('Animals')
+insert into tbl_product_category
+values('Property')
+insert into tbl_product_category
+values('Fashion')
+
+
+select * from tbl_admin
+select * from tbl_product_category
+select * from tbl_product_items
+
+
+-------------------------------------------------
+
+store procedure
+--------------------------------------------------
+
+create proc spinsert_admin
+(
+@ad_email nvarchar(50),
+@ad_password nvarchar(50),
+@ad_phone nvarchar(50),
+@id int out
+)
+as
+begin
+insert into tbl_admin
+values(@ad_email ,@ad_password,@ad_phone);
+
+select @id=SCOPE_IDENTITY()
+
+
+end
+
+
+select count(ad_id) from tbl_admin  where ad_email='salmanmasood2@yahoo.com'
+
+
+
+
